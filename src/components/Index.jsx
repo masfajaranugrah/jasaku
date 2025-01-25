@@ -1,0 +1,16 @@
+import Header from '@/components/header'
+import _Header from '@/components/_Header'
+import Footer from '@/components/footer'
+import Banner from '@/components/banner'
+import Team from '@/components/team'
+import Marque from '@/components/marque'
+import About from '@/components/about'
+import Contact from '@/components/contact'
+import Price from '@/components/price'
+import Testimonial from '@/components/testimonials'
+import Cta from '@/components/cta'
+import Layanan from '@/components/layanan'
+import Portfolio from '@/components/Portfolio'
+import _Contact from '@/components/_Contact'
+
+export {Header, Footer,_Header, Banner, Team, Marque, About, Contact, Price, Testimonial, Cta, Layanan, Portfolio, _Contact}
