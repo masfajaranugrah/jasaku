@@ -20,7 +20,7 @@ const About = () => {
                     <div className="row g-4">
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src={img3} alt="img" className="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s"/>
+                                <img src={img3} alt="img" className="wow w-2 img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s"/>
                                 <div className="box-shape float-bob-y">
                                     <img src={boxshpe} alt="img"/>
                                 </div>

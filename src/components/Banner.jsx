@@ -1,7 +1,6 @@
 import React from 'react';
 // Impor gambar
-import heroBgImage from '@/assets/img/hero/hero-bg-2.png';
-import trophyShapeImage from '@/assets/img/hero/trophy-shape.png';
+
 import leftShapeImage from '@/assets/img/hero/left-shape.png';
 import rightShapeImage from '@/assets/img/hero/right-shape.png';
 import rocketShapeImage from '@/assets/img/hero/rocket-2.png';
@@ -15,7 +14,7 @@ const Banner = () => {
   return (
     <section
     className="hero-section hero-2"
-      style={{ backgroundImage: `url('/assets/img/hero/hero-bg-2.png')` }} // Gunakan path yang dimulai dengan '/'
+      style={{ backgroundImage: `url('/assets/img/hero/hero-bg-2.png')` }}  
   >
     <div className="trophy-shape">
       <img src="/assets/img/hero/trophy-shape.png" alt="img" />
@@ -62,7 +61,7 @@ const Banner = () => {
           <div className="hero-image">
             <img
               src={heroImage}
-              style={{ width: '120%' }}
+              style={{ width: '100%' }}
               alt="img"
               className="wow img-custom-anim-left"
               data-wow-duration="1.5s"

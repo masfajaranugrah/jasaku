@@ -9,4 +9,11 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  css: {
+    devSourcemap: false,
+  },
+  server: {
+    host: '192.168.1.22', // or '0.0.0.0' to allow connections from any host
+    port: 5173, // or your preferred port
+  },
 });
